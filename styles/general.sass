@@ -1,0 +1,143 @@
+ul
+  list-style: none
+  
+header
+ height:300px
+ padding: 20px
+ background: linear-gradient(305deg,#dbfff3,transparent)
+ display: flex
+ >div
+  width: 100%
+  max-width: 1250px
+  margin:0 auto
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  .title
+    width: 60%
+    font-size: 40px
+    text-transform: uppercase
+  .topNav
+    display: flex
+    justify-content: space-between
+    align-content: center
+    ul
+      display: flex
+      list-style-type: none
+      gap:15px
+      li
+      font-weight:600
+      font-size:16px
+
+footer
+  background-color: #333
+  color:#fff
+  padding:20px
+  text-align: center
+
+
+main 
+  width: 100%
+  max-width: 1250px
+  margin:0 auto
+  padding: 80px 30px
+  min-height: 550px
+
+.home_body
+  display: flex
+  flex-direction: column
+  gap:50px
+  .image
+    width: 40%
+  .card
+    display: flex
+    flex-direction: row
+    gap:30px
+    justify-content: center
+    align-content: center
+    align-items: center
+    &:nth-child(even)
+      direction: rtl
+    .content
+      width:50%
+
+.about_us_list
+  display: flex
+  flex-direction: column
+  width: 90%
+  margin:20px auto
+  gap:10px
+
+.events_page
+  display: flex
+  flex-direction: row
+  gap:20px
+  flex-wrap: wrap
+  .card
+    position: relative
+    .card_img
+      object-fit: cover
+    h2
+      position: absolute
+      text-align: center
+      font-size: 38px
+      color: white
+      text-transform: uppercase
+      text-shadow: 1px 1px 20px black
+      top:50%
+      width: 100%
+
+
+.cat_events
+  width: 100%
+  h1
+    margin: 30px 0
+    margin-top: 0
+    text-transform: capitalize
+  .content
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    width:100%
+    justify-content: flex-start
+    gap:30px
+    .card
+      display: flex
+      flex-direction: column
+      width: 30%
+      min-width: 300px
+   
+.single_event
+  h1
+    margin-bottom: 25px 
+    text-transform: capitalize
+  p
+    margin: 10px auto
+    margin-bottom: 30px
+  label
+    font-weight: bold
+  .event_form
+    margin-top: 10px
+    display: flex
+    flex-direction: row
+    max-width: 350px
+    width:100%
+    border: 1px solid black
+    border-right: 0
+    input
+      outline: none
+      padding:10px
+      flex-basis: 70%
+      border: none
+      font-size: 1rem
+    button[type="submit"]
+      flex-basis: 30%
+      font-size: 1.1rem
+      border: none
+      background: #473f3f
+      color:#ffff
+      cursor: pointer
+      &:hover
+        background:#000000
+
+      
